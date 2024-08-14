@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EZ4EGEK6LK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-EZ4EGEK6LK");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/fav.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Wire+One|Raleway:300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f584623432.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <title>Thanish Kumar | UI/UX Designer | Front-End Developer</title>
+  </head>
+
+  <body>
+    <!-- <button class="toggle">Dark Mode</button> -->
+
+    <!-- ============================================  Nav Bar  ===================================================== -->
+
+    <div id="nav-menu" class="container fixed">
+      <nav>
+        <h1><span style="color: #0071f2">Thanish</span> Kumar</h1>
+        <ul id="sidemenu">
+          <li class="nav-link home"><a href="#home">Home</a></li>
+          <li class="nav-link about"><a href="#about">About</a></li>
+          <li class="nav-link skills"><a href="#skills">Skills</a></li>
+          <li class="nav-link skills">
+            <a href="#Certificates">Certifications</a>
+          </li>
+          <li class="nav-link projects"><a href="#projects">Projects</a></li>
+          <li class="nav-link contact"><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+
+    <!-- ===========================================   Nav Bar  ===================================================== -->
+
+    <!-- ========================================   Home section  ===================================================== -->
+
+    <div id="home">
+      <div class="container">
+        <div class="main">
+          <div class="header-text">
+            <p>UI/UX Designer | Front-End Developer</p>
+            <h1 id="user-detail-name">
+              Hi, I'm <span>Thanish </span>kumar<br />
+            </h1>
+            <button id="resume-button-2">
+              <a
+                href="Thanish kumar_Resume.pdf"
+                target="_blank"
+                id="resume-link-2"
+                class="btn btn2"
+                >View Resume</a
+              >
+            </button>
+          </div>
+          <div class="header-img">
+            <img src="./images/Portfolio_top.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================   Home section  ===================================================== -->
+
+    <!-- ========================================   About section  ===================================================== -->
+
+    <div id="about" class="about section">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/about.png" alt="" class="home-img" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About</h1>
+            <p id="user-detail-intro">
+              I blend creativity with technical expertise to craft seamless digital experiences. Skilled in translating user-centered designs into responsive,
+               high-performance web solutions using modern frameworks and tools. <br />
+              <br />My approach ensures intuitive and engaging interfaces that drive user satisfaction. Passionate about innovation and collaboration, 
+              I’m excited to connect and explore new opportunities. Let’s create something impactful together!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Education')">
+                <b>Work Experience</b>
+              </p>
+              <p class="tab-links" onclick="opentab('Certifications')">
+                <b>Education</b>
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="Education">
+              <ul>
+                <li>
+                  <span>Feb 2024 - Present</span><br />UI/UX Designer |
+                  Internship<br />
+                  String Consultants<br />Erode, Tamil Nadu
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Certifications">
+              <ul>
+                <li>
+                  <span>Oct 2020 - May 2023</span><br />Kongu Engineering College<br />
+                  Bachelor of Technology in Information Technology - 7.65 CGPA<br />Erode, Tamil Nadu
+                </li>
+                <li>
+                  <span>Jun 2017 - May 2020</span><br />PSG Polytechnic College<br />
+                  Diploma in Information Technology - 69.5%<br />Coimbatore, Tamil Nadu
+                </li>
+                <li>
+                  <span>Jun 2016 - May 2017</span><br />Adharsh Vidhyalaya Matric Hr Sec School<br />
+                  SSLC - 83%<br />Erode, Tamil Nadu
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================   About section  ===================================================== -->
+
+    <!-- ========================================   Skills section  ===================================================== -->
+
+    <div id="skills">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <h3 class="sub-skills">Languages</h3>
+        <div class="skills-list">
+          <div class="skills-card">
+            <img
+              src="images/HTML.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">HTML</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/CSS.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">CSS</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/JS.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">JavaScript</h5>
+          </div>
+        </div>
+
+        <h3 class="sub-skills">Frameworks</h3>
+        <div class="skills-list">
+          <div class="skills-card">
+            <img
+              src="images/Bootstrap.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Bootstrap</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/React Js.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">React Js</h5>
+          </div>
+        </div>
+
+        <h3 class="sub-skills">Design</h3>
+        <div class="skills-list">
+          <div class="skills-card">
+            <img src="images/UI Design.png" alt="" class="skills-card-img center" />
+            <h5 class="skills-card-name">UI Design</h5>
+          </div>
+          <div class="skills-card">
+            <img src="images/Visual Design.png" alt="" class="skills-card-img center" />
+            <h5 class="skills-card-name">Visual Design</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Wireframe.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Wireframing</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Mockups.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Mockups</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Responsive Design.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Responsive Design</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Design Thinking.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Design Thinking</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Design System.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Design System</h5>
+          </div>
+        </div>
+        <h3 class="sub-skills">Tools</h3>
+        <div class="skills-list">
+          <div class="skills-card">
+            <img
+              src="images/VS Code.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">VS Code</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Github.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Github</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Vercel.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Vercel</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Figma.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Figma</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Canva.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Canva</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/Wordpress.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Wordpress</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/After Effect.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Adobe After Effects</h5>
+          </div>
+          <div class="skills-card">
+            <img
+              src="images/illustrator.png"
+              alt=""
+              class="skills-card-img center"
+            />
+            <h5 class="skills-card-name">Adobe Illustrator</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================   Skills section  ===================================================== -->
+
+    <!-- ========================================   Certificates section  ===================================================== -->
+    <div id="Certificates">
+      <div class="container">
+        <h1 class="Certificates-title">Certifications</h1>
+
+        <div class="Certificates-list">
+          <div class="Certificates-card">
+            <img
+              src="images/Certification-1.png"
+              alt=""
+              class="Certificates-card-img center"
+            />
+            <h5 class="Certificates-card-name">
+              Xplore IT Corp - Web Technology
+            </h5>
+          </div>
+          <div class="Certificates-card">
+            <img
+              src="images/Certification-2.jpg"
+              alt=""
+              class="Certificates-card-img center"
+            />
+            <h5 class="Certificates-card-name">
+              Great Learning - UI/UX Design Course
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================   Certificates section  ===================================================== -->
+
+    <!-- ========================================   Projects section  ===================================================== -->
+
+    <!-- Potofolio -->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+
+
+
+          <div class="work project-card">
+            <img src="images/Project-6.png" alt="" />
+            <div class="layer">
+              <h3 class="project-title">Parking App - UI/UX Case Study</h3>
+              <p class="project-description">
+                Designed a mobile app for parking vehicles using figma(Design thinking, User persona, Site map, User flow, Design system, Low-fidelity wireframes, Mid-fidelity wireframes and High-fidelity wireframes).
+              </p>
+              <small class="project-tech-stack"
+                ><strong>Tech Stack: </strong>
+                <i class="fa-brands fa-figma"></i>
+              </small>
+
+              <div>
+                <a
+                  href="https://www.behance.net/gallery/203604181/Parking-Spot-App-UIUX-Case-study"
+                  target="_blank"
+                  class="project-deployed-link"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="work project-card">
+            <img src="images/Project-5.png" alt="" />
+            <div class="layer">
+              <h3 class="project-title">HRMS Product Landing Page</h3>
+              <p class="project-description">
+                Designed a HRMS product landing page using Figma.
+              </p>
+              <small class="project-tech-stack"
+                ><strong>Tech Stack: </strong>
+                <i class="fa-brands fa-figma"></i>
+              </small>
+
+              <div>
+                <a
+                  href="https://www.behance.net/gallery/200907759/HRMS-Product-Landing-Page"
+                  target="_blank"
+                  class="project-deployed-link"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work project-card">
+            <img src="images/Project-4.png" alt="" />
+            <div class="layer">
+              <h3 class="project-title">UI/UX Case Study - ChatDot</h3>
+              <p class="project-description">
+                Implemented user research and Analyzed result from the user
+                research and Design a Chat app design using Figma.
+              </p>
+              <small class="project-tech-stack"
+                ><strong>Tech Stack: </strong>
+                <i class="fa-brands fa-figma"></i>
+              </small>
+
+              <div>
+                <a
+                  href="https://www.behance.net/gallery/199092707/UIUX-Case-Study-ChatDot"
+                  target="_blank"
+                  class="project-deployed-link"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work project-card">
+            <img src="images/Project-3.png" alt="" />
+            <div class="layer">
+              <h3 class="project-title">Personal Portfolio Website Design</h3>
+              <p class="project-description">
+                Designed a Personal Portfolio Website Design using Figma.
+              </p>
+              <small class="project-tech-stack"
+                ><strong>Tech Stack: </strong>
+                <i class="fa-brands fa-figma"></i>
+              </small>
+
+              <div>
+                <a
+                  href="https://www.behance.net/gallery/198316041/Personal-Portfolio-Website-Design"
+                  target="_blank"
+                  class="project-deployed-link"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="work project-card">
+            <img src="images/Project-2.png" alt="" />
+            <div class="layer">
+              <h3 class="project-title">Music Concert Website</h3>
+              <p class="project-description">
+                I have developed a music event website with ReactJS (HTML, CSS,
+                JavaScript, Bootstrap, and jQuery).
+              </p>
+              <small class="project-tech-stack"
+                ><strong>Tech Stack: </strong>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-react"></i>
+              </small>
+
+              <div>
+                <a
+                  href="https://music-concert-website.vercel.app/"
+                  target="_blank"
+                  class="project-deployed-link"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+                <a
+                  href="https://github.com/ThanishkumarIT/Music-Concert"
+                  target="_blank"
+                  class="project-github-link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work project-card">
+            <img src="images/Project-1.png" alt="" />
+            <div class="layer">
+              <h3 class="project-title">My Portfolio</h3>
+              <p class="project-description">
+                I have developed my portfolio using HTML, CSS, and JavaScript.
+              </p>
+              <small class="project-tech-stack"
+                ><strong>Tech Stack: </strong>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-square-js"></i>
+              </small>
+
+              <div>
+                <a
+                  href="https://my-portfolio-thanish-kumar.vercel.app/"
+                  target="_blank"
+                  class="project-deployed-link"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+                <a
+                  href="https://github.com/ThanishkumarIT/My-Portfolio-Website"
+                  target="_blank"
+                  class="project-github-link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+      </div>
+    </div>
+
+    <!-- ========================================   Projects section  ===================================================== -->
+
+    <!-- ========================================   contact section  ===================================================== -->
+
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact</h1>
+            <p id="contact-email">
+              <i class="fa-solid fa-paper-plane"></i>thanishkumarit@gmail.com
+            </p>
+            <p id="contact-phone">
+              <i class="fa-solid fa-square-phone"></i>+91 8056757970
+            </p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/thanish-kumar/"
+                id="contact-linkedin"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.behance.net/thanishkumaruiux"
+                id="contact-github"
+                target="_blank"
+                ><i class="fa-brands fa-behance"></i>
+              </a>
+              <a
+                href="https://github.com/ThanishkumarIT"
+                id="contact-github"
+                target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a
+              href="Thanish kumar_Resume.pdf"
+              target="_blank"
+              download
+              class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p style="color: #fff">
+          Design is not just what it looks like and feels like. Design is how it
+          works.
+        </p>
+      </div>
+    </div>
+  </body>
+
+  <!-- ===================================   contact section  ========================================== -->
+</html>
+
+<script src="main.js"></script>
